@@ -25,12 +25,11 @@ export default class Edit extends Component {
 
     onSubmit(e){
      e.preventDefault()
-    //  const noms= this.state.nom
-    //  const messages= this.state.message
+   
     
     const postIdit={
        nom: this.state.nom,
-       message: this.state.message
+  
     }
  
 
